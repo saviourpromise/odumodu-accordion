@@ -1,6 +1,6 @@
 {
   "name": "odumodu-accordion",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A smooth, animated accordion component built with React, Tailwind CSS, and Framer Motion.",
   "main": "src/package-entry/index.js",
   "author": "Promise Saviour",
@@ -9,7 +9,14 @@
     "type": "git",
     "url": "https://github.com/saviourpromise/odumodu-accordion"
   },
-  "keywords": ["react", "accordion", "tailwind", "framer-motion", "animation", "component"],
+  "keywords": [
+    "react",
+    "accordion",
+    "tailwind",
+    "framer-motion",
+    "animation",
+    "component"
+  ],
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -37,10 +44,21 @@
     "postcss": "^8.5.4"
   },
   "eslintConfig": {
-    "extends": ["react-app", "react-app/jest"]
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
   },
   "browserslist": {
-    "production": [">0.2%", "not dead", "not op_mini all"],
-    "development": ["last 1 chrome version", "last 1 firefox version", "last 1 safari version"]
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
