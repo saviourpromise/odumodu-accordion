@@ -5,14 +5,16 @@
   "main": "src/package-entry/index.js",
   "author": "Promise Saviour",
   "license": "MIT",
+  "homepage": "https://odumodu-accordion.vercel.app/",
   "repository": {
     "type": "git",
-    "url": "https://github.com/saviourpromise/odumodu-accordion"
+    "url": "git+https://github.com/saviourpromise/odumodu-accordion.git"
   },
   "keywords": [
     "react",
     "accordion",
     "tailwind",
+    "front-end",
     "framer-motion",
     "animation",
     "component"
