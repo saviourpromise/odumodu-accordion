@@ -1,0 +1,28 @@
+# Don't publish the build output or public demo files
+build/
+public/
+
+# Don't publish example/demo files
+src/App.js
+src/App.css
+src/App.test.js
+src/logo.svg
+src/index.js
+src/index.css
+src/reportWebVitals.js
+src/setupTests.js
+
+# Ignore config files not needed for consumers
+postcss.config.js
+tailwind.config.js
+
+# Ignore system and environment files
+node_modules/
+.vscode/
+.env
+.env.local
+*.log
+*.tgz
+
+# Optional: if your README is just for development
+# README.md
