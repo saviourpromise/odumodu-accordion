@@ -1,6 +1,6 @@
 {
   "name": "odumodu-accordion",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A smooth, animated accordion component built with React, Tailwind CSS, and Framer Motion.",
   "main": "src/package-entry/index.js",
   "author": "Promise Saviour",
