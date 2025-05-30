@@ -3,13 +3,13 @@ import { FiChevronDown } from "react-icons/fi";
 
 export default function Accordion({ title, isOpen, onToggle, children }) {
   return (
-<div className="border border-gray-200 dark:border-gray-700 rounded-2xl overflow-hidden w-full max-w-xl mx-auto mb-6 bg-white dark:bg-gray-900 shadow-lg dark:shadow-gray-800 transition-shadow hover:shadow-xl">
-<button
+    <div className="border border-gray-200 dark:border-gray-700 rounded-2xl overflow-hidden w-full mb-6 bg-white dark:bg-gray-900 shadow-lg dark:shadow-gray-800 transition-shadow hover:shadow-xl px-2 sm:px-6">
+      <button
         onClick={onToggle}
-        className="w-full flex justify-between items-center px-8 py-5 text-left font-semibold text-lg text-gray-900 dark:text-gray-100 transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-indigo-500 focus-visible:ring-offset-2 hover:bg-indigo-50 dark:hover:bg-indigo-900"
+        className="w-full flex justify-between items-center px-4 sm:px-6 py-5 text-left font-semibold text-lg text-gray-900 dark:text-gray-100 transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-indigo-500 focus-visible:ring-offset-2 hover:bg-indigo-50 dark:hover:bg-indigo-900"
         aria-expanded={isOpen}
       >
-        <span>{title}</span>
+        <span className="break-words text-sm">{title}</span>
         <motion.div
           animate={{ rotate: isOpen ? 180 : 0 }}
           transition={{ duration: 0.35, ease: "easeInOut" }}
@@ -28,7 +28,7 @@ export default function Accordion({ title, isOpen, onToggle, children }) {
             animate={{ height: "auto", opacity: 1 }}
             exit={{ height: 0, opacity: 0 }}
             transition={{ duration: 0.4, ease: "easeInOut" }}
-            className="px-8 pt-4 pb-6 overflow-hidden text-gray-700 dark:text-gray-300 text-base leading-relaxed select-text"
+            className="px-4 sm:px-6 pt-4 pb-6 overflow-hidden text-gray-700 dark:text-gray-300 text-base leading-relaxed select-text"
           >
             {children}
           </motion.div>

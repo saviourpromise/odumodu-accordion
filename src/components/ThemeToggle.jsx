@@ -35,7 +35,7 @@ export default function ThemeToggle() {
     <button
       aria-label="Toggle Dark Mode"
       onClick={() => setIsDark(!isDark)}
-      className="fixed top-5 right-5 p-2 rounded-full text-white shadow-lg focus:outline-none"
+      className="fixed top-5 right-12 p-2 rounded-full text-white shadow-lg focus:outline-none"
     >
       {isDark ? "🌙" : "☀️"}
     </button>

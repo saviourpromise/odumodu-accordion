@@ -28,7 +28,7 @@ function App() {
   return (
     <div className="min-h-screen bg-gradient-to-tr from-white-100 via-white-100 to-white-100 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900 p-8 transition-colors duration-500">
       <ThemeToggle />
-      <h1 className="text-4xl font-extrabold text-center mb-10 text-indigo-900 dark:text-indigo-300 tracking-wide">
+      <h1 className="text-2xl sm:text-2xl md:text-4xl pt-10 font-extrabold text-center mb-10 text-indigo-900 dark:text-indigo-300 tracking-wide">
         ODUMODUCORDION 🔥
       </h1>
 
